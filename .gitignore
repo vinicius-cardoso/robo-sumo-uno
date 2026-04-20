@@ -1,0 +1,53 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Generic temporary/build files
+build/
+dist/
+tmp/
+temp/
+*.tmp
+*.log
+*.bak
+*.orig
+
+# KiCad local/generated files
+*-backups/
+_autosave-*
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*.brd-bak
+*.lck
+fp-info-cache
+*-rescue.*
+*-erc.rpt
+*-drc.rpt
+
+# Arduino / embedded build outputs
+*.elf
+*.hex
+*.eep
+*.map
+*.o
+*.d
+.pio/
+
+# Mechanical CAD backup/autosave files
+*.FCStd1
+*.autosave
+
+# Machine-specific generated output
+*.gcode
+
+# Test logs are usually transient; keep the folder itself.
+tests/logs/*
+!tests/logs/.gitkeep

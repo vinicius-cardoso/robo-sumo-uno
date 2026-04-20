@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "robo_sumo_uno_library")(type "KiCad")(uri "${KIPRJMOD}/../libraries/symbols/robo_sumo_uno_library.kicad_sym")(options "")(descr "Project-local symbol library for Robo Sumo Uno"))
+)
