@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.95,
+          "height": 1.95,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -527,79 +540,79 @@
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "LINE_B"
+        "pattern": "/LINE_B"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "LINE_L"
+        "pattern": "/LINE_L"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "LINE_R"
+        "pattern": "/LINE_R"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "PROX_F_LV"
+        "pattern": "/PROX_F_LV"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "PROX_L_LV"
+        "pattern": "/PROX_L_LV"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "PROX_R_LV"
+        "pattern": "/PROX_R_LV"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "GYRO_SDA"
+        "pattern": "/GYRO_SDA"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "GYRO_SCL"
+        "pattern": "/GYRO_SCL"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "L_LEN"
+        "pattern": "/L_LEN"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "L_REN"
+        "pattern": "/L_REN"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "L_LPWM"
+        "pattern": "/L_LPWM"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "L_RPWM"
+        "pattern": "/L_RPWM"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "R_LEN"
+        "pattern": "/R_LEN"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "R_REN"
+        "pattern": "/R_REN"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "R_LPWM"
+        "pattern": "/R_LPWM"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "R_RPWM"
+        "pattern": "/R_RPWM"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "PROX_F_HV"
+        "pattern": "/PROX_F_HV"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "PROX_L_HV"
+        "pattern": "/PROX_L_HV"
       },
       {
         "netclass": "SIGNAL",
-        "pattern": "PROX_R_HV"
+        "pattern": "/PROX_R_HV"
       },
       {
         "netclass": "POWER",
