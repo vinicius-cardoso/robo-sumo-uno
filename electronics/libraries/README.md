@@ -10,3 +10,6 @@ copiadas para o repositorio para que a PCB abra corretamente em outra maquina.
 
 O projeto KiCad em `../kicad/` referencia estas copias por meio de
 `sym-lib-table` e `fp-lib-table` locais.
+
+O modulo buck em `../kicad/modules/buck_converter_5v/` tambem referencia esta
+mesma biblioteca local para abrir de forma isolada.

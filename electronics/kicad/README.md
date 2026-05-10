@@ -9,6 +9,8 @@ Arquivos que devem ser versionados:
 - `robo-sumo.kicad_pcb`: layout da PCB.
 - `sym-lib-table`: bibliotecas de simbolos locais do projeto.
 - `fp-lib-table`: bibliotecas de footprints locais do projeto.
+- `modules/`: blocos KiCad auxiliares importados de outros projetos, como o buck
+  converter de 5 V.
 
 As bibliotecas customizadas aparecem no KiCad com o nickname
 `robo_sumo_uno_library`.
